@@ -1,4 +1,4 @@
-# qtcloud-devops-cli 内测邀请
+# 量潮DevOps云命令行工具开始内测
 
 量潮DevOps云命令行工具，现开启内部测试。
 
