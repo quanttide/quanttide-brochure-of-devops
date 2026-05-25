@@ -4,9 +4,24 @@
 
 ## 概述
 
-纯 Rust 实现的 CLI 工具，提供发布管理和 Git 子模块管理能力。
+纯 Rust 实现的 CLI 工具，提供发布管理和代码管理能力。当前代码管理功能以 Git 子模块为主。
 
 ## 功能
+
+### 代码管理
+
+```bash
+# 查看子模块状态
+qtcloud-devops code status
+
+# 同步子模块
+qtcloud-devops code sync my-module
+
+# 退役子模块
+qtcloud-devops code retire old-module
+```
+
+当前以 Git 子模块管理为主。
 
 ### 发布管理
 
@@ -22,19 +37,6 @@ qtcloud-devops release retire -v v0.3.0
 
 # 查看发布状态
 qtcloud-devops release status
-```
-
-### 子模块管理
-
-```bash
-# 查看状态
-qtcloud-devops code status
-
-# 同步子模块
-qtcloud-devops code sync my-module
-
-# 退役子模块
-qtcloud-devops code retire old-module
 ```
 
 ## 安装
